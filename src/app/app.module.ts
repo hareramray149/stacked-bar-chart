@@ -7,12 +7,14 @@ import { ChartDemoComponent } from './chart-demo/chart-demo.component';
 
 import {Chart} from 'chart.js';
 import { registerables } from 'chart.js';
+import { StackedChartBorderWidthComponent } from './stacked-chart-border-width/stacked-chart-border-width.component';
 Chart.register(...registerables);
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChartDemoComponent
+    ChartDemoComponent,
+    StackedChartBorderWidthComponent
   ],
   imports: [
     BrowserModule,
